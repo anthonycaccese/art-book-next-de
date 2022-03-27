@@ -1,0 +1,16 @@
+<themeCapabilities>
+
+   <aspectRatio>16:9</aspectRatio>
+   <aspectRatio>4:3</aspectRatio>
+
+   <variant name="metadataOn">
+      <label>Metadata On</label>
+      <selectable>true</selectable>
+   </variant>
+
+   <variant name="metadataOff">
+      <label>Metadata Off</label>
+      <selectable>true</selectable>
+   </variant>
+
+</themeCapabilities>

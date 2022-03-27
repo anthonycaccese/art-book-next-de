@@ -1,0 +1,101 @@
+<theme>
+
+   <view name="system">
+      <carousel name="system-carousel">
+         <fontSize>0.06</fontSize>
+      </carousel>
+   </view>
+   <view name="gamelist">
+      <image name="logo">
+         <pos>0.182776801405975 0.1375</pos><!-- 104 44 -->
+         <maxSize>0.272407732864675 0.1</maxSize><!-- 155 32 -->
+      </image>
+      <textlist name="gamelist">
+         <pos>0.035149384885764 0.25625</pos><!-- 20 82 -->
+         <size>0.288224956063269 0.7</size><!-- 164 224 -->
+         <lineSpacing>1.56</lineSpacing>
+         <fontSize>0.04375</fontSize><!-- 14 -->
+      </textlist>
+      <image name="gamelist-background">
+         <size>0.365553602811951 1</size><!-- 208 320 -->
+      </image>
+      <image name="gamelist-border">
+         <pos>0.365553602811951 0</pos><!-- 208 -->
+         <size>0.003514938488576 1</size><!-- 2 320 -->
+      </image>
+   </view>
+
+   <!-- Metadata Off  -->
+   <variant name="metadataOff">
+      <view name="gamelist">
+         <image name="marquee">
+            <pos>0.685413005272408 0.5</pos><!-- 390 160 -->
+            <maxSize>0.421792618629174 0.75</maxSize><!-- 240 240 -->
+         </image>
+         <video name="video">
+            <pos>0.685413005272408 0.5</pos><!-- 390 160 -->
+            <maxSize>1.041666666666667 1.171875</maxSize><!-- 592 375 -->
+         </video>
+      </view>
+   </variant>
+
+   <!-- Metadata On Gamelist -->
+   <variant name="metadataOn">
+      <view name="gamelist">
+         <image name="boxart">
+            <origin>0 1</origin>
+            <pos>0.393673110720562 0.95</pos><!-- 224 304 -->
+            <size>0.130052724077329 0</size><!-- 74 ~ -->
+            <imageType>cover</imageType>
+         </image>
+         <text name="description">
+            <fontPath>${bodyFont}</fontPath>
+            <horizontalAlignment>left</horizontalAlignment>
+            <color>ffffff</color>
+            <pos>0.555360281195079 0.775</pos><!-- 316 248 -->
+            <size>0.27768014059754 0.175</size><!-- 158 56 -->
+            <fontSize>0.03</fontSize><!-- 9.6 -->
+            <metadata>description</metadata>
+            <container>true</container>
+         </text>
+         <rating name="rating">
+            <pos>0.878734622144112 0.79375</pos><!-- 500 254 -->
+            <size>0 0.03125</size><!-- x 10 -->
+            <filledPath>./_inc/images/utility/star-filled.svg</filledPath>
+            <unfilledPath>./_inc/images/utility/star-empty.svg</unfilledPath>
+            <color>333333</color>
+         </rating>
+         <datetime name="releasedate">
+            <pos>0.878734622144112 0.85</pos><!-- 500 272 -->
+            <size>0.140597539543058 0.028125</size><!-- 80 16 -->
+            <fontSize>0.028125</fontSize><!-- 9 -->
+            <metadata>releasedate</metadata>
+            <fontPath>${bodyFont}</fontPath>
+            <color>333333</color>
+         </datetime>
+         <text name="genre">
+            <pos>0.878734622144112 0.9</pos><!-- 500 288 -->
+            <size>0.094903339191564 0.028125</size><!-- 54 16 -->
+            <fontSize>0.028125</fontSize><!-- 9 -->
+            <metadata>genre</metadata>
+            <fontPath>${bodyFont}</fontPath>
+            <color>333333</color>
+         </text>
+         <image name="metadata-background">
+            <pos>0.365553602811951 0.73125</pos><!-- 208 234 -->
+            <size>0.634446397188049 0.26875</size><!-- 361 86 -->
+            <origin>0 0</origin>
+            <path>${spacerImage}</path>
+            <tile>true</tile>
+            <color>000000</color>
+            <zIndex>2</zIndex>
+         </image>
+         <video name="video">
+            <origin>0.5 0.5</origin>
+            <pos>0.685413005272408 0.3625</pos><!-- 390 116 -->
+            <maxSize>1.041666666666667 1.171875</maxSize><!-- 592 375 -->
+         </video>
+      </view>
+   </variant>
+
+</theme>

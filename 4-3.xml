@@ -1,0 +1,58 @@
+<theme>
+
+   <view name="system">
+      <carousel name="system-carousel">
+         <fontSize>0.06</fontSize>
+      </carousel>
+   </view>
+   <view name="gamelist">
+      <image name="logo">
+         <pos>0.243559718969555 0.1375</pos><!-- 104 44 -->
+         <maxSize>0.362997658079625 0.1</maxSize><!-- 155 32 -->
+      </image>
+      <textlist name="gamelist">
+         <pos>0.046838407494145 0.28125</pos><!-- 20 90 -->
+         <size>0.384074941451991 0.7</size><!-- 164 228 -->
+         <lineSpacing>1.64</lineSpacing>
+         <fontSize>0.04375</fontSize><!-- 14 -->
+      </textlist>
+      <image name="gamelist-background">
+         <size>0.48711943793911 1</size><!-- 208 320 -->
+      </image>
+      <image name="gamelist-border">
+         <pos>0.48711943793911 0</pos><!-- 208 -->
+         <size>0.004683840749415 1</size><!-- 2 320 -->
+      </image>
+   </view>
+
+   <!-- Metadata Off  -->
+   <variant name="metadataOff">
+      <view name="gamelist">
+         <image name="marquee">
+            <pos>0.754098360655738 0.5</pos><!-- 322 160 -->
+            <maxSize>0.374707259953162 0.75</maxSize><!-- 160 240 -->
+         </image>
+         <video name="video">
+            <pos>0.754098360655738 0.5</pos><!-- 322 160 -->
+            <maxSize>1.386416861826698 1.171875</maxSize><!-- 592 375 -->
+         </video>
+      </view>
+   </variant>
+
+   <!-- Metadata On Gamelist -->
+   <variant name="metadataOn">
+      <view name="gamelist">
+         <text name="not-yet">
+            <origin>0.5 0.5</origin>
+            <pos>0.754098360655738 0.5</pos><!-- 322 160 -->
+            <fontPath>${bodyFont}</fontPath>
+            <horizontalAlignment>center</horizontalAlignment>
+            <verticalAlignment>center</verticalAlignment>
+            <color>ffffff</color>
+            <text>Not Yet</text>
+            <fontSize>0.03</fontSize><!-- 9.6 -->
+         </text>
+      </view>
+   </variant>
+
+</theme>
