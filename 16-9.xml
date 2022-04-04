@@ -23,6 +23,18 @@
          <pos>0.365553602811951 0</pos><!-- 208 -->
          <size>0.003514938488576 1</size><!-- 2 320 -->
       </image>
+      <badges name="badges">
+         <size>0.126537785588752 0.0625</size>
+         <pos>0.964850615114236 0.0625</pos>
+         <origin>1 0</origin>
+         <horizontalAlignment>right</horizontalAlignment>
+         <lines>1</lines>
+         <itemMargin>-1 0.007029876977153</itemMargin>
+         <slots>broken,completed,favorite</slots>
+         <customBadgeIcon badge="favorite">./_inc/images/utility/badge-favorite.svg</customBadgeIcon>
+         <customBadgeIcon badge="completed">./_inc/images/utility/badge-completed.svg</customBadgeIcon>
+         <customBadgeIcon badge="broken">./_inc/images/utility/badge-broken.svg</customBadgeIcon>
+      </badges>
    </view>
 
    <!-- Metadata Off  -->
