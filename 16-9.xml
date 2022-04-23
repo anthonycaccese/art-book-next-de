@@ -1,10 +1,5 @@
 <theme>
 
-   <view name="system">
-      <carousel name="system-carousel">
-         <fontSize>0.06</fontSize>
-      </carousel>
-   </view>
    <view name="gamelist">
       <image name="logo">
          <pos>0.182776801405975 0.1375</pos><!-- 104 44 -->
@@ -19,21 +14,10 @@
       <image name="gamelist-background">
          <size>0.365553602811951 1</size><!-- 208 320 -->
       </image>
-      <image name="gamelist-border">
-         <pos>0.365553602811951 0</pos><!-- 208 -->
-         <size>0.003514938488576 1</size><!-- 2 320 -->
-      </image>
       <badges name="badges">
          <size>0.126537785588752 0.0625</size>
          <pos>0.964850615114236 0.0625</pos>
-         <origin>1 0</origin>
-         <horizontalAlignment>right</horizontalAlignment>
-         <lines>1</lines>
          <itemMargin>-1 0.007029876977153</itemMargin>
-         <slots>broken,completed,favorite</slots>
-         <customBadgeIcon badge="favorite">./_inc/images/utility/badge-favorite.svg</customBadgeIcon>
-         <customBadgeIcon badge="completed">./_inc/images/utility/badge-completed.svg</customBadgeIcon>
-         <customBadgeIcon badge="broken">./_inc/images/utility/badge-broken.svg</customBadgeIcon>
       </badges>
    </view>
 
@@ -71,27 +55,27 @@
             <container>true</container>
          </text>
          <rating name="rating">
-            <pos>0.878734622144112 0.79375</pos><!-- 500 254 -->
+            <pos>0.86115992970123 0.79375</pos><!-- 490 254 -->
             <size>0 0.03125</size><!-- x 10 -->
             <filledPath>./_inc/images/utility/star-filled.svg</filledPath>
             <unfilledPath>./_inc/images/utility/star-empty.svg</unfilledPath>
-            <color>333333</color>
+            <color>777777</color>
          </rating>
          <datetime name="releasedate">
-            <pos>0.878734622144112 0.85</pos><!-- 500 272 -->
-            <size>0.140597539543058 0.028125</size><!-- 80 16 -->
+            <pos>0.86115992970123 0.85</pos><!-- 490 272 -->
+            <size>0.15817223198594 0.028125</size><!-- 90 16 -->
             <fontSize>0.028125</fontSize><!-- 9 -->
             <metadata>releasedate</metadata>
             <fontPath>${bodyFont}</fontPath>
-            <color>333333</color>
+            <color>777777</color>
          </datetime>
          <text name="genre">
-            <pos>0.878734622144112 0.9</pos><!-- 500 288 -->
-            <size>0.094903339191564 0.028125</size><!-- 54 16 -->
+            <pos>0.86115992970123 0.9</pos><!-- 490 288 -->
+            <size>0.112478031634446 0.028125</size><!-- 64 16 -->
             <fontSize>0.028125</fontSize><!-- 9 -->
             <metadata>genre</metadata>
             <fontPath>${bodyFont}</fontPath>
-            <color>333333</color>
+            <color>777777</color>
          </text>
          <image name="metadata-background">
             <pos>0.365553602811951 0.73125</pos><!-- 208 234 -->

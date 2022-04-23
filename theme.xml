@@ -34,7 +34,7 @@ based on:      Art Book Next (github.com/anthonycaccese/es-theme-art-book-next)
          <pos>0 0</pos>
          <origin>0 0</origin>
          <color>00000000</color>
-         <logo>./_inc/images/systems/logos/${system.theme}.svg</logo>
+         <logo>./_inc/images/systems/${system.theme}.svg</logo>
          <logoScale>1.4</logoScale>
          <logoSize>0.36 0.28125</logoSize>
          <maxLogoCount>1.8</maxLogoCount>
@@ -49,14 +49,13 @@ based on:      Art Book Next (github.com/anthonycaccese/es-theme-art-book-next)
          <pos>0.5 0.5</pos>
          <origin>0.5 0.5</origin>
          <color>ffffffcc</color>
-         <path>./_inc/images/systems/centered/${system.theme}.png</path>
-         <default>./_inc/images/utility/default-background.jpg</default>
+         <path>./_inc/images/systems/${system.theme}.png</path>
       </image>
       <image name="background-art-mask">
          <size>0 1</size>
          <pos>0.5 0</pos>
          <origin>0.5 0</origin>
-         <path>./_inc/images/utility/centered-background-mask.svg</path>
+         <path>./_inc/images/utility/background-art-mask.svg</path>
       </image>
    </view>
 
@@ -65,7 +64,7 @@ based on:      Art Book Next (github.com/anthonycaccese/es-theme-art-book-next)
          <origin>0.5 0.5</origin>
          <zIndex>2</zIndex>
          <color>aaaaaa</color>
-         <path>./_inc/images/systems/logos/${system.theme}.svg</path>
+         <path>./_inc/images/systems/${system.theme}.svg</path>
          <zIndex>4</zIndex>
       </image>
       <!-- Gamelist Defaults -->
@@ -88,13 +87,19 @@ based on:      Art Book Next (github.com/anthonycaccese/es-theme-art-book-next)
          <color>111111</color>
          <zIndex>3</zIndex>
       </image>
-      <image name="gamelist-border">
-         <origin>0 0</origin>
-         <path>${spacerImage}</path>
-         <tile>true</tile>
-         <color>000000</color>
-         <zIndex>3</zIndex>
-      </image>
+      <badges name="badges">
+         <origin>1 0</origin>
+         <horizontalAlignment>right</horizontalAlignment>
+         <lines>1</lines>
+         <slots>folder,broken,completed,favorite,kidgame,collection,controller</slots>
+         <customBadgeIcon badge="folder">./_inc/images/utility/badge-folder.svg</customBadgeIcon>
+         <customBadgeIcon badge="broken">./_inc/images/utility/badge-broken.svg</customBadgeIcon>
+         <customBadgeIcon badge="completed">./_inc/images/utility/badge-completed.svg</customBadgeIcon>
+         <customBadgeIcon badge="favorite">./_inc/images/utility/badge-favorite.svg</customBadgeIcon>
+         <customBadgeIcon badge="kidgame">./_inc/images/utility/badge-kidgame.svg</customBadgeIcon>
+         <customBadgeIcon badge="collection">./_inc/images/utility/badge-collection.svg</customBadgeIcon>
+         <customBadgeIcon badge="controller">./_inc/images/utility/badge-controller.svg</customBadgeIcon>
+      </badges>
       <!-- Media Defaults -->
       <image name="marquee">
          <origin>0.5 0.5</origin>
@@ -104,7 +109,6 @@ based on:      Art Book Next (github.com/anthonycaccese/es-theme-art-book-next)
       <video name="video">
          <origin>0.5 0.5</origin>
          <delay>1</delay>
-         <defaultImage>./_inc/images/utility/default-background.jpg</defaultImage>
          <imageType>screenshot,titlescreen,fanart,cover</imageType>
          <zIndex>1</zIndex>
       </video>
