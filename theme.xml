@@ -1,7 +1,6 @@
 <!--
-theme name:    Art Book Next DE
+theme name:    Art Book Next (ES-DE Edition)
 author:        Anthony Caccese
-contributor:   Szalik
 license:       creative commons CC-BY-NC-SA
 based on:      Art Book Next (github.com/anthonycaccese/es-theme-art-book-next)
 -->
@@ -35,9 +34,9 @@ based on:      Art Book Next (github.com/anthonycaccese/es-theme-art-book-next)
          <origin>0 0</origin>
          <color>00000000</color>
          <logo>./_inc/images/systems/${system.theme}.svg</logo>
-         <logoScale>1.4</logoScale>
-         <logoSize>0.36 0.28125</logoSize>
-         <maxLogoCount>1.8</maxLogoCount>
+         <logoScale>2</logoScale>
+         <logoSize>0.25 0.15</logoSize>
+         <maxLogoCount>2</maxLogoCount>
          <logoVerticalAlignment>center</logoVerticalAlignment>
          <text>${system.fullName}</text>
          <textColor>ffffff</textColor>
@@ -72,7 +71,6 @@ based on:      Art Book Next (github.com/anthonycaccese/es-theme-art-book-next)
          <origin>0 0</origin>
          <horizontalAlignment>left</horizontalAlignment>
          <fontPath>${bodyFont}</fontPath>
-         <horizontalMargin>0.008</horizontalMargin>
          <selectorColor>111111</selectorColor>
          <selectedColor>ffffff</selectedColor>
          <primaryColor>444444</primaryColor>
@@ -87,11 +85,20 @@ based on:      Art Book Next (github.com/anthonycaccese/es-theme-art-book-next)
          <color>111111</color>
          <zIndex>3</zIndex>
       </image>
+      <image name="background">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>${spacerImage}</path>
+         <tile>true</tile>
+         <color>222222</color>
+         <zIndex>0</zIndex>
+      </image>
       <badges name="badges">
          <origin>1 0</origin>
          <horizontalAlignment>right</horizontalAlignment>
          <lines>1</lines>
-         <slots>folder,broken,completed,favorite,kidgame,collection,controller</slots>
+         <slots>folder,broken,completed,favorite,kidgame,collection,controller,altemulator</slots>
          <customBadgeIcon badge="folder">./_inc/images/utility/badge-folder.svg</customBadgeIcon>
          <customBadgeIcon badge="broken">./_inc/images/utility/badge-broken.svg</customBadgeIcon>
          <customBadgeIcon badge="completed">./_inc/images/utility/badge-completed.svg</customBadgeIcon>
@@ -99,17 +106,18 @@ based on:      Art Book Next (github.com/anthonycaccese/es-theme-art-book-next)
          <customBadgeIcon badge="kidgame">./_inc/images/utility/badge-kidgame.svg</customBadgeIcon>
          <customBadgeIcon badge="collection">./_inc/images/utility/badge-collection.svg</customBadgeIcon>
          <customBadgeIcon badge="controller">./_inc/images/utility/badge-controller.svg</customBadgeIcon>
+         <customBadgeIcon badge="altemulator">./_inc/images/utility/badge-altemulator.svg</customBadgeIcon>
       </badges>
       <!-- Media Defaults -->
       <image name="marquee">
-         <origin>0.5 0.5</origin>
          <imageType>marquee</imageType>
+         <interpolation>linear</interpolation>
          <zIndex>2</zIndex>
       </image>
       <video name="video">
-         <origin>0.5 0.5</origin>
          <delay>1</delay>
          <imageType>screenshot,titlescreen,fanart,cover</imageType>
+         <interpolation>linear</interpolation>
          <zIndex>1</zIndex>
       </video>
    </view>
@@ -117,6 +125,11 @@ based on:      Art Book Next (github.com/anthonycaccese/es-theme-art-book-next)
    <!-- 16:9 Layout -->
    <aspectRatio name="16:9">
       <include>./16-9.xml</include>
+   </aspectRatio>
+
+   <!-- 16:10 Layout -->
+   <aspectRatio name="16:10">
+      <include>./16-10.xml</include>
    </aspectRatio>
 
    <!-- 4:3 Layout -->

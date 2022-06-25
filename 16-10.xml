@@ -2,17 +2,17 @@
 
    <view name="gamelist">
       <image name="logo">
-         <pos>0.182489451476793 0.131875</pos><!-- 259.5 105.5 -->
-         <maxSize>0.282700421940928 0.10375</maxSize><!-- 402 83 -->
+         <pos>0.202734375 0.131875</pos><!-- 259.5 105.5 -->
+         <maxSize>0.3140625 0.10375</maxSize><!-- 402 83 -->
       </image>
       <textlist name="gamelist">
-         <pos>0.035161744022504 0.25</pos><!-- 50 200 -->
-         <size>0.29887482419128 0.7</size><!-- 425 542.5 -->
+         <pos>0.0390625 0.25</pos><!-- 50 200 -->
+         <size>0.33203125 0.7</size><!-- 425 542.5 -->
          <lineSpacing>1.585</lineSpacing>
          <fontSize>0.04</fontSize><!-- 32 -->
       </textlist>
       <image name="gamelist-background">
-         <size>0.365682137834037 1</size><!-- 520 800 -->
+         <size>0.40625 1</size><!-- 520 800 -->
       </image>
       <badges name="badges">
          <size>0.2 0.2</size>
@@ -43,43 +43,43 @@
    <variant name="metadataOn">
       <view name="gamelist">
          <badges name="badges">
-            <pos>0.957805907172996 0.0625</pos><!-- 1362 50 -->
+            <pos>0.953125 0.075</pos><!-- 1220 60 -->
          </badges>
          <text name="description">
             <fontPath>${bodyFont}</fontPath>
             <horizontalAlignment>left</horizontalAlignment>
             <color>ffffff</color>
-            <pos>0.407876230661041 0.835</pos><!-- 580 668 -->
-            <size>0.323488045007032 0.125</size><!-- 460 96 -->
+            <pos>0.453125 0.785</pos><!-- 580 628 -->
+            <size>0.359375 0.165</size><!-- 460 132 -->
             <lineSpacing>1.36</lineSpacing>
             <fontSize>0.03</fontSize><!-- 24 -->
             <metadata>description</metadata>
             <container>true</container>
          </text>
          <rating name="rating">
-            <pos>0.756680731364276 0.835</pos><!-- 1076 668 -->
+            <pos>0.8453125 0.7375</pos><!-- 1082 590 -->
             <size>0 0.03</size><!-- x 24 -->
             <filledPath>./_inc/images/utility/star-filled.svg</filledPath>
             <unfilledPath>./_inc/images/utility/star-empty.svg</unfilledPath>
             <color>555555</color>
          </rating>
          <text name="genre">
-            <pos>0.756680731364276 0.875</pos><!-- 1076 700 -->
-            <size>0.074542897327707 0.0325</size><!-- 106 26 -->
-            <fontSize>0.025</fontSize><!-- 20 -->
+            <pos>0.453125 0.7375</pos><!-- 580 590 -->
+            <size>0 0</size>
+            <fontSize>0.0225</fontSize><!-- 18 -->
             <metadata>genre</metadata>
             <fontPath>${bodyFont}</fontPath>
             <color>888888</color>
          </text>
          <image name="players-icon">
             <origin>0 0</origin>
-            <pos>0.756680731364276 0.92125</pos><!-- 1076 737 -->
+            <pos>0.8453125 0.835</pos><!-- 1082 668 -->
             <maxSize>0.013671875 0.025</maxSize><!-- 17.5 20 -->
             <path>./_inc/images/utility/icon-players.svg</path>
             <color>555555</color>
          </image>
          <text name="players">
-            <pos>0.774964838255977 0.9175</pos><!-- 1102 734 -->
+            <pos>0.86640625 0.83</pos><!-- 1109 664 -->
             <size>0.1015625 0</size><!-- 130 y -->
             <fontSize>0.025</fontSize><!-- 20 -->
             <metadata>players</metadata>
@@ -88,14 +88,14 @@
          </text>
          <image name="releasedate-icon">
             <origin>0 0</origin>
-            <pos>0.864978902953586 0.83625</pos><!-- 1230 669 -->
+            <pos>0.8453125 0.7875</pos><!-- 1082 630 -->
             <maxSize>0.013671875 0.025</maxSize><!-- 17.5 20 -->
             <path>./_inc/images/utility/icon-calendar.svg</path>
             <color>555555</color>
          </image>
          <datetime name="releasedate">
-            <pos>0.883263009845288 0.8325</pos><!-- 1256 666 -->
-            <size>0.074542897327707 0.0325</size><!-- 106 26 -->
+            <pos>0.86640625 0.78375</pos><!-- 1109 627 -->
+            <size>0.1015625 0</size><!-- 130 y -->
             <format>%Y-%m-%d</format>
             <fontSize>0.025</fontSize><!-- 20 -->
             <metadata>releasedate</metadata>
@@ -104,14 +104,14 @@
          </datetime>
          <image name="developer-icon">
             <origin>0 0</origin>
-            <pos>0.864978902953586 0.88125</pos><!-- 1230 705 -->
+            <pos>0.8453125 0.8775</pos><!-- 1082 702 -->
             <maxSize>0.013671875 0.025</maxSize><!-- 17.5 20 -->
             <path>./_inc/images/utility/icon-wrench.svg</path>
             <color>555555</color>
          </image>
          <text name="developer">
-            <pos>0.883263009845288 0.875</pos><!-- 1256 700 -->
-            <size>0.074542897327707 0.0325</size><!-- 106 26 -->
+            <pos>0.86640625 0.88</pos><!-- 1109 704 -->
+            <size>0.078125 0.0175</size><!-- 80 0 -->
             <fontSize>0.025</fontSize><!-- 20 -->
             <metadata>developer</metadata>
             <fontPath>${bodyFont}</fontPath>
@@ -119,23 +119,23 @@
          </text>
          <image name="publisher-icon">
             <origin>0 0</origin>
-            <pos>0.864978902953586 0.925</pos><!-- 1230 740 -->
+            <pos>0.8453125 0.92</pos><!-- 1082 736 -->
             <maxSize>0.013671875 0.025</maxSize><!-- 17.5 20 -->
             <path>./_inc/images/utility/icon-ship.svg</path>
             <color>555555</color>
          </image>
          <text name="publisher">
-            <pos>0.883263009845288 0.9175</pos><!-- 1256 734 -->
-            <size>0.074542897327707 0.0325</size><!-- 106 26 -->
+            <pos>0.86640625 0.92</pos><!-- 1109 736 -->
+            <size>0.078125 0.0175</size><!-- 80 0 -->
             <fontSize>0.025</fontSize><!-- 20 -->
             <metadata>publisher</metadata>
             <fontPath>${bodyFont}</fontPath>
             <color>888888</color>
          </text>
          <image name="media-background">
-            <origin>0.5 0.5</origin>
-            <pos>0.681786216596343 0.424375</pos><!-- 969.5 339.5 -->
-            <size>0.562587904360056 0.75</size><!-- 800 600 -->
+            <origin>0 0</origin>
+            <pos>0.4453125 0.0625</pos><!-- 570 50 -->
+            <size>0.515625 0.61875</size><!-- 660 495 -->
             <path>${spacerImage}</path>
             <tile>true</tile>
             <color>000000</color>
@@ -143,20 +143,20 @@
          </image>
          <image name="boxart">
             <origin>0 1</origin>
-            <pos>0.414908579465541 0.776875</pos><!-- 590 621.5 -->
-            <maxSize>0.133614627285513 0.2375</maxSize><!-- 190 190 -->
+            <pos>0.453125 0.70625</pos><!-- 580 565 -->
+            <maxSize>0.1484375 0.2375</maxSize><!-- 190 190 -->
             <imageType>cover</imageType>
             <interpolation>linear</interpolation>
          </image>
          <image name="marquee">
             <origin>1 1</origin>
-            <pos>0.950773558368495 0.776875</pos><!-- 1352 621.5 -->
+            <pos>0.953125 0.70625</pos><!-- 1220 565 -->
             <maxSize>0.1484375 0.2375</maxSize><!-- 190 190 -->
          </image>
          <video name="video">
             <origin>0.5 0.5</origin>
-            <pos>0.682489451476793 0.425375</pos><!-- 970.5 340.3 -->
-            <maxSize>0.562587904360056 0.751875</maxSize><!-- 802 601.5 -->
+            <pos>0.702734375 0.371875</pos><!-- 899.5 297.5 -->
+            <maxSize>0.515625 0.61875</maxSize><!-- 660 495 -->
          </video>
       </view>
    </variant>
