@@ -44,17 +44,16 @@ based on:      Art Book Next (github.com/anthonycaccese/es-theme-art-book-next)
          <fontPath>${logoFont}</fontPath>
       </carousel>
       <image name="background-art">
-         <size>0 1</size>
-         <pos>0.5 0.5</pos>
          <origin>0.5 0.5</origin>
+         <pos>0.5 0.5</pos>
+         <size>0 1</size>
          <color>ffffffcc</color>
          <path>./_inc/images/systems/${system.theme}.png</path>
       </image>
       <image name="background-art-mask">
-         <size>0 1</size>
-         <pos>0.5 0</pos>
          <origin>0.5 0</origin>
-         <path>./_inc/images/utility/background-art-mask.svg</path>
+         <pos>0.5 0</pos>
+         <size>1 1</size>
       </image>
    </view>
 

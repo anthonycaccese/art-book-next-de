@@ -1,5 +1,11 @@
 <theme>
 
+   <view name="system">
+      <image name="background-art-mask">
+         <path>./_inc/images/utility/background-art-mask-16-9.svg</path>
+      </image>
+   </view>
+
    <view name="gamelist">
       <image name="logo">
          <pos>0.182489451476793 0.131875</pos><!-- 259.5 105.5 -->
