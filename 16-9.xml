@@ -21,7 +21,7 @@
          <size>0.365682137834037 1</size><!-- 520 800 -->
       </image>
       <badges name="badges">
-         <size>0.2 0.2</size>
+         <size>0.3 0.3</size>
          <itemMargin>-1 0.007029876977153</itemMargin>
       </badges>
    </view>
@@ -54,7 +54,7 @@
          <text name="description">
             <fontPath>${bodyFont}</fontPath>
             <horizontalAlignment>left</horizontalAlignment>
-            <color>ffffff</color>
+            <color>${descriptionColor}</color>
             <pos>0.407876230661041 0.835</pos><!-- 580 668 -->
             <size>0.323488045007032 0.125</size><!-- 460 96 -->
             <lineSpacing>1.36</lineSpacing>
@@ -67,7 +67,7 @@
             <size>0 0.03</size><!-- x 24 -->
             <filledPath>./_inc/images/utility/star-filled.svg</filledPath>
             <unfilledPath>./_inc/images/utility/star-empty.svg</unfilledPath>
-            <color>555555</color>
+            <color>${ratingColor}</color>
          </rating>
          <text name="genre">
             <pos>0.756680731364276 0.875</pos><!-- 1076 700 -->
@@ -75,14 +75,15 @@
             <fontSize>0.025</fontSize><!-- 20 -->
             <metadata>genre</metadata>
             <fontPath>${bodyFont}</fontPath>
-            <color>888888</color>
+            <letterCase>capitalize</letterCase>
+            <color>${metadataColor}</color>
          </text>
          <image name="players-icon">
             <origin>0 0</origin>
             <pos>0.756680731364276 0.92125</pos><!-- 1076 737 -->
             <maxSize>0.013671875 0.025</maxSize><!-- 17.5 20 -->
             <path>./_inc/images/utility/icon-players.svg</path>
-            <color>555555</color>
+            <color>${metadataIconColor}</color>
          </image>
          <text name="players">
             <pos>0.774964838255977 0.9175</pos><!-- 1102 734 -->
@@ -90,14 +91,15 @@
             <fontSize>0.025</fontSize><!-- 20 -->
             <metadata>players</metadata>
             <fontPath>${bodyFont}</fontPath>
-            <color>888888</color>
+            <letterCase>capitalize</letterCase>
+            <color>${metadataColor}</color>
          </text>
          <image name="releasedate-icon">
             <origin>0 0</origin>
             <pos>0.864978902953586 0.83625</pos><!-- 1230 669 -->
             <maxSize>0.013671875 0.025</maxSize><!-- 17.5 20 -->
             <path>./_inc/images/utility/icon-calendar.svg</path>
-            <color>555555</color>
+            <color>${metadataIconColor}</color>
          </image>
          <datetime name="releasedate">
             <pos>0.883263009845288 0.8325</pos><!-- 1256 666 -->
@@ -106,14 +108,15 @@
             <fontSize>0.025</fontSize><!-- 20 -->
             <metadata>releasedate</metadata>
             <fontPath>${bodyFont}</fontPath>
-            <color>888888</color>
+            <letterCase>capitalize</letterCase>
+            <color>${metadataColor}</color>
          </datetime>
          <image name="developer-icon">
             <origin>0 0</origin>
             <pos>0.864978902953586 0.88125</pos><!-- 1230 705 -->
             <maxSize>0.013671875 0.025</maxSize><!-- 17.5 20 -->
             <path>./_inc/images/utility/icon-wrench.svg</path>
-            <color>555555</color>
+            <color>${metadataIconColor}</color>
          </image>
          <text name="developer">
             <pos>0.883263009845288 0.875</pos><!-- 1256 700 -->
@@ -121,14 +124,15 @@
             <fontSize>0.025</fontSize><!-- 20 -->
             <metadata>developer</metadata>
             <fontPath>${bodyFont}</fontPath>
-            <color>888888</color>
+            <letterCase>capitalize</letterCase>
+            <color>${metadataColor}</color>
          </text>
          <image name="publisher-icon">
             <origin>0 0</origin>
             <pos>0.864978902953586 0.925</pos><!-- 1230 740 -->
             <maxSize>0.013671875 0.025</maxSize><!-- 17.5 20 -->
             <path>./_inc/images/utility/icon-ship.svg</path>
-            <color>555555</color>
+            <color>${metadataIconColor}</color>
          </image>
          <text name="publisher">
             <pos>0.883263009845288 0.9175</pos><!-- 1256 734 -->
@@ -136,7 +140,8 @@
             <fontSize>0.025</fontSize><!-- 20 -->
             <metadata>publisher</metadata>
             <fontPath>${bodyFont}</fontPath>
-            <color>888888</color>
+            <letterCase>capitalize</letterCase>
+            <color>${metadataColor}</color>
          </text>
          <image name="media-background">
             <origin>0.5 0.5</origin>

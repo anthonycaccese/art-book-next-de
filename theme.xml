@@ -11,6 +11,20 @@ ported from:   Art Book Next (github.com/anthonycaccese/es-theme-art-book-next)
       <logoFont>./_inc/fonts/ChangaOne-Italic.ttf</logoFont>
       <bodyFont>./_inc/fonts/Oxygen-Bold.ttf</bodyFont>
       <spacerImage>./_inc/images/utility/space.png</spacerImage>
+      <!-- 
+      Color Settings
+      -->
+      <backgroundColor>222222</backgroundColor>
+      <gamelistBackgroundColor>111111</gamelistBackgroundColor>
+      <systemBackgroundColor>111111</systemBackgroundColor>
+      <ratingColor>ffffff33</ratingColor>
+      <gamelistSelectedColor>ffffff</gamelistSelectedColor>
+      <gamelistUnSelectedColor>ffffff33</gamelistUnSelectedColor>
+      <logoColor>ffffffaa</logoColor>
+      <logoTextColor>ffffffaa</logoTextColor>
+      <metadataColor>ffffff88</metadataColor>
+      <metadataIconColor>ffffff33</metadataIconColor>
+      <descriptionColor>ffffffee</descriptionColor>
    </variables>
 
    <view name="system,gamelist">
@@ -21,25 +35,26 @@ ported from:   Art Book Next (github.com/anthonycaccese/es-theme-art-book-next)
 
    <view name="system">
       <image name="background">
-         <size>1 1</size>
-         <pos>0 0</pos>
          <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
          <path>${spacerImage}</path>
-         <color>111111</color>
          <tile>true</tile>
+         <color>000000</color>
+         <zIndex>0</zIndex>
       </image>
       <carousel name="system-carousel">
          <size>1 1</size>
          <pos>0 0</pos>
          <origin>0 0</origin>
          <color>00000000</color>
-         <logo>./_inc/images/systems/${system.theme}.svg</logo>
-         <logoScale>2</logoScale>
-         <logoSize>0.25 0.15</logoSize>
-         <maxLogoCount>2</maxLogoCount>
-         <logoVerticalAlignment>center</logoVerticalAlignment>
+         <staticItem>./_inc/images/systems/${system.theme}.svg</staticItem>
+         <itemScale>2</itemScale>
+         <itemSize>0.25 0.15</itemSize>
+         <maxItemCount>2</maxItemCount>
+         <itemVerticalAlignment>center</itemVerticalAlignment>
          <text>${system.fullName}</text>
-         <textColor>ffffff</textColor>
+         <textColor>${logoTextColor}</textColor>
          <letterCase>uppercase</letterCase>
          <fontPath>${logoFont}</fontPath>
       </carousel>
@@ -49,40 +64,42 @@ ported from:   Art Book Next (github.com/anthonycaccese/es-theme-art-book-next)
          <size>0 1</size>
          <color>ffffffcc</color>
          <path>./_inc/images/systems/${system.theme}.png</path>
+         <zIndex>1</zIndex>
       </image>
       <image name="background-art-mask">
          <origin>0.5 0</origin>
          <pos>0.5 0</pos>
          <size>1 1</size>
+         <zIndex>2</zIndex>
+         <color>${systemBackgroundColor}</color>
       </image>
    </view>
 
    <view name="gamelist">
       <image name="logo">
          <origin>0.5 0.5</origin>
-         <zIndex>2</zIndex>
-         <color>aaaaaa</color>
+         <color>${logoColor}</color>
          <path>./_inc/images/systems/${system.theme}.svg</path>
-         <zIndex>4</zIndex>
+         <zIndex>5</zIndex>
       </image>
       <!-- Gamelist Defaults -->
       <textlist name="gamelist">
          <origin>0 0</origin>
          <horizontalAlignment>left</horizontalAlignment>
          <fontPath>${bodyFont}</fontPath>
-         <selectorColor>111111</selectorColor>
-         <selectedColor>ffffff</selectedColor>
-         <primaryColor>444444</primaryColor>
-         <secondaryColor>444444</secondaryColor>
-         <zIndex>4</zIndex>
+         <selectorColor>00000000</selectorColor>
+         <selectedColor>${gamelistSelectedColor}</selectedColor>
+         <primaryColor>${gamelistUnSelectedColor}</primaryColor>
+         <secondaryColor>${gamelistUnSelectedColor}</secondaryColor>
+         <zIndex>5</zIndex>
       </textlist>
       <image name="gamelist-background">
          <pos>0 0</pos>
          <origin>0 0</origin>
          <path>${spacerImage}</path>
          <tile>true</tile>
-         <color>111111</color>
-         <zIndex>3</zIndex>
+         <color>${gamelistBackgroundColor}</color>
+         <zIndex>4</zIndex>
       </image>
       <image name="background">
          <origin>0 0</origin>
@@ -90,13 +107,14 @@ ported from:   Art Book Next (github.com/anthonycaccese/es-theme-art-book-next)
          <size>1 1</size>
          <path>${spacerImage}</path>
          <tile>true</tile>
-         <color>222222</color>
+         <color>${backgroundColor}</color>
          <zIndex>0</zIndex>
       </image>
       <badges name="badges">
          <origin>1 0</origin>
          <horizontalAlignment>right</horizontalAlignment>
          <lines>1</lines>
+         <itemsPerLine>8</itemsPerLine>
          <slots>folder,broken,completed,favorite,kidgame,collection,controller,altemulator</slots>
          <customBadgeIcon badge="folder">./_inc/images/utility/badge-folder.svg</customBadgeIcon>
          <customBadgeIcon badge="broken">./_inc/images/utility/badge-broken.svg</customBadgeIcon>
