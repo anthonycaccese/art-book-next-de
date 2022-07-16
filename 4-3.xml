@@ -70,7 +70,7 @@
             <color>${ratingColor}</color>
          </rating>
          <text name="genre">
-            <pos>0.543580131208997 0.853</pos><!-- 580 686 -->
+            <pos>0.543580131208997 0.857</pos><!-- 580 686 -->
             <size>0.1875 0.025</size><!-- 120 20 -->
             <fontSize>0.025</fontSize><!-- 20 -->
             <metadata>genre</metadata>
@@ -80,13 +80,13 @@
          </text>
          <image name="players-icon">
             <origin>0 0</origin>
-            <pos>0.543580131208997 0.902</pos><!-- 580 725 -->
+            <pos>0.543580131208997 0.908</pos><!-- 580 725 -->
             <maxSize>0.016401124648547 0.025</maxSize><!-- 17.5 20 -->
             <path>./_inc/images/utility/icon-players.svg</path>
             <color>${metadataIconColor}</color>
          </image>
          <text name="players">
-            <pos>0.567947516401125 0.9</pos><!-- 606 720 -->
+            <pos>0.567947516401125 0.908</pos><!-- 606 720 -->
             <size>0.1875 0.025</size><!-- 120 20 -->
             <fontSize>0.025</fontSize><!-- 20 -->
             <metadata>players</metadata>
@@ -111,13 +111,13 @@
          </datetime>
          <image name="developer-icon">
             <origin>0 0</origin>
-            <pos>0.764761012183693 0.855</pos><!-- 816 691 -->
+            <pos>0.764761012183693 0.859</pos><!-- 816 691 -->
             <maxSize>0.016401124648547 0.025</maxSize><!-- 17.5 20 -->
             <path>./_inc/images/utility/icon-wrench.svg</path>
             <color>${metadataIconColor}</color>
          </image>
          <text name="developer">
-            <pos>0.78912839737582 0.853</pos><!-- 842 689 -->
+            <pos>0.78912839737582 0.857</pos><!-- 842 689 -->
             <size>0.159325210871603 0.025</size><!-- 170 20 -->
             <fontSize>0.025</fontSize><!-- 20 -->
             <metadata>developer</metadata>
@@ -126,13 +126,13 @@
          </text>
          <image name="publisher-icon">
             <origin>0 0</origin>
-            <pos>0.764761012183693 0.904</pos><!-- 816 725 -->
+            <pos>0.764761012183693 0.912</pos><!-- 816 725 -->
             <maxSize>0.016401124648547 0.025</maxSize><!-- 17.5 20 -->
             <path>./_inc/images/utility/icon-ship.svg</path>
             <color>${metadataIconColor}</color>
          </image>
          <text name="publisher">
-            <pos>0.78912839737582 0.9</pos><!-- 842 725 -->
+            <pos>0.78912839737582 0.908</pos><!-- 842 725 -->
             <size>0.159325210871603 0.025</size><!-- 170 20 -->
             <fontSize>0.025</fontSize><!-- 20 -->
             <metadata>publisher</metadata>
@@ -150,14 +150,14 @@
          </image>
          <image name="boxart">
             <origin>0 1</origin>
-            <pos>0.543580131208997 0.494</pos><!-- 580 395.2 -->
-            <maxSize>0.121836925960637 0.1625</maxSize><!-- 130 130 -->
+            <pos>0.543580131208997 0.5</pos><!-- 580 395.2 -->
+            <maxSize>0.15 0.2</maxSize><!-- 130 130 -->
             <imageType>cover</imageType>
             <interpolation>linear</interpolation>
          </image>
          <image name="marquee">
             <origin>1 1</origin>
-            <pos>0.943767572633552 0.494</pos><!-- 1007 395.2 -->
+            <pos>0.943767572633552 0.5</pos><!-- 1007 395.2 -->
             <maxSize>0.1484375 0.2375</maxSize><!-- 190 190 -->
          </image>
          <video name="video">
