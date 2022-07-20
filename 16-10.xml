@@ -9,7 +9,7 @@
    <view name="gamelist">
       <image name="logo">
          <pos>0.202734375 0.131875</pos><!-- 259.5 105.5 -->
-         <maxSize>0.3140625 0.10375</maxSize><!-- 402 83 -->
+         <maxSize>0.3 0.1</maxSize><!-- 402 83 -->
       </image>
       <textlist name="gamelist">
          <pos>0.0390625 0.25</pos><!-- 50 200 -->
