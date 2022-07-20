@@ -149,7 +149,7 @@
             <size>0.562587904360056 0.75</size><!-- 800 600 -->
             <path>${spacerImage}</path>
             <tile>true</tile>
-            <color>000000</color>
+            <color>00000000</color>
             <zIndex>1</zIndex>
          </image>
          <image name="boxart">

@@ -11,20 +11,17 @@ license:       creative commons CC-BY-NC-SA
       <bodyFont>./_inc/fonts/Oxygen-Bold.ttf</bodyFont>
       <spacerImage>./_inc/images/utility/space.png</spacerImage>
       <!-- 
-      Color Settings
+      Color Scheme Options:
+      art-book-next
+      art-book
+      snes
+      steam-deck
+      custom
       -->
-      <backgroundColor>222222</backgroundColor>
-      <gamelistBackgroundColor>111111</gamelistBackgroundColor>
-      <systemBackgroundColor>111111</systemBackgroundColor>
-      <ratingColor>ffffff33</ratingColor>
-      <gamelistSelectedColor>ffffff</gamelistSelectedColor>
-      <gamelistUnSelectedColor>ffffff33</gamelistUnSelectedColor>
-      <logoColor>ffffffaa</logoColor>
-      <logoTextColor>ffffffaa</logoTextColor>
-      <metadataColor>ffffff88</metadataColor>
-      <metadataIconColor>ffffff33</metadataIconColor>
-      <descriptionColor>ffffffee</descriptionColor>
+      <colorScheme>art-book-next</colorScheme>
    </variables>
+
+   <include>./color-scheme-${colorScheme}.xml</include>
 
    <view name="system,gamelist">
       <helpsystem name="help">
@@ -39,7 +36,7 @@ license:       creative commons CC-BY-NC-SA
          <size>1 1</size>
          <path>${spacerImage}</path>
          <tile>true</tile>
-         <color>000000</color>
+         <color>${systemBackgroundColor}</color>
          <zIndex>0</zIndex>
       </image>
       <carousel name="system-carousel">
