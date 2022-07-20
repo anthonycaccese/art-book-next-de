@@ -19,9 +19,16 @@ license:       creative commons CC-BY-NC-SA
       custom
       -->
       <colorScheme>art-book-next</colorScheme>
+      <!-- 
+      Sound Set:
+      es-de
+      steam-os
+      -->
+      <soundSet>steam-os</soundSet>
    </variables>
 
    <include>./color-scheme-${colorScheme}.xml</include>
+   <include>./sound-set-${soundSet}.xml</include>
 
    <view name="system,gamelist">
       <helpsystem name="help">
