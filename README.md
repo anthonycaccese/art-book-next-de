@@ -19,7 +19,7 @@ These options are selectable directly in the EmulationStation UI Settings when u
 
 ### Color Schemes
 
-| Art Book Next | Art Book (2017) | Steam OS | SNES |
+| Art Book Next | Art Book ([2017](https://github.com/anthonycaccese/es-theme-art-book)) | Steam OS | SNES |
 |----|----|----|----|
 | ![art-book-next-16-9-metadata-on](https://user-images.githubusercontent.com/1454947/175848140-4b202408-52ba-42d8-a8c8-8cfa95d9b8fb.png) | ![Screen Shot 2022-07-21 at 12 11 33](https://user-images.githubusercontent.com/1454947/180265407-3ad891fd-2180-4054-8322-891bfdb20ca1.png) | ![Screen Shot 2022-07-21 at 12 13 12](https://user-images.githubusercontent.com/1454947/180265431-719688ab-6b6b-4c68-821d-77b7a6da7c1e.png) | ![Screen Shot 2022-07-21 at 12 12 26](https://user-images.githubusercontent.com/1454947/180265452-4a687612-d138-4e15-89bf-dc082f45f155.png) |
 
@@ -27,6 +27,6 @@ These options are selectable directly in the EmulationStation UI Settings when u
 
 - Supports 16:9, 16:10 and 4:3 aspect ratios (please select the AR that matches your display under UI settings in ES-DE) 
 - 2 gamelist view styles available (1) "Metadata On" and (2) "Metadata Off" (see screenshots above)
-- 4 color schemes (so far)
+- 4 color schemes with an option to create your own custom one
 - Includes logos and artwork for all available systems in ES-DE
 - Badge Support (an ES-DE exclusive feature)
