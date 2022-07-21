@@ -7,6 +7,8 @@ Based on the style of a coffee table book.
 ![art-book-next-overview](https://user-images.githubusercontent.com/1454947/175847449-c7dec52e-e2ac-4e51-b578-6d98a9b7e68c.png)
 
 ## Configuration Options 
+
+### Aspect Ratio & Layout Variants
 These options are selectable directly in the EmulationStation UI Settings when using v2.0 of ES-DE
 
 | Aspect Ratio | Variant - Metadata On | Variant - Metadata Off |
@@ -15,9 +17,16 @@ These options are selectable directly in the EmulationStation UI Settings when u
 | 16:10 | ![art-book-next-16-10-metadata-on](https://user-images.githubusercontent.com/1454947/175848326-e77272eb-4370-43a9-ae12-7d7a5a79728c.png) | ![art-book-next-16-10-metadata-off](https://user-images.githubusercontent.com/1454947/175848355-5696ed70-52a3-4bc9-9c81-0fe7e1a1a5d7.png) |
 | 4:3 | ![art-book-next-4-3-metadata-on](https://user-images.githubusercontent.com/1454947/175848384-cc4529e1-bded-417b-a823-8894fece0c38.png) | ![art-book-next-4-3-metadata-off](https://user-images.githubusercontent.com/1454947/175848424-a49ed090-f49f-456b-bb42-8e88229d0309.png) |
 
+### Color Schemes
+
+| Art Book Next | Art Book (2017) | Steam OS | SNES |
+|----|----|----|----|
+| ![art-book-next-16-9-metadata-on](https://user-images.githubusercontent.com/1454947/175848140-4b202408-52ba-42d8-a8c8-8cfa95d9b8fb.png) | ![Screen Shot 2022-07-21 at 12 11 33](https://user-images.githubusercontent.com/1454947/180265407-3ad891fd-2180-4054-8322-891bfdb20ca1.png) | ![Screen Shot 2022-07-21 at 12 13 12](https://user-images.githubusercontent.com/1454947/180265431-719688ab-6b6b-4c68-821d-77b7a6da7c1e.png) | ![Screen Shot 2022-07-21 at 12 12 26](https://user-images.githubusercontent.com/1454947/180265452-4a687612-d138-4e15-89bf-dc082f45f155.png) |
+
 ## Details
 
 - Supports 16:9, 16:10 and 4:3 aspect ratios (please select the AR that matches your display under UI settings in ES-DE) 
 - 2 gamelist view styles available (1) "Metadata On" and (2) "Metadata Off" (see screenshots above)
+- 4 color schemes (so far)
 - Includes logos and artwork for all available systems in ES-DE
 - Badge Support (an ES-DE exclusive feature)
