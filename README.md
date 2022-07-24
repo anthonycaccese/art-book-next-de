@@ -1,7 +1,6 @@
 # Art Book Next ([ES-DE](https://es-de.org/) Version)
-A simple theme for the version of EmulationStation used in [ES-DE v2.x](https://es-de.org/)
-
-*(If you are using ES-DE v1.x please download [this version](https://github.com/anthonycaccese/art-book-next-retropie) instead)*
+A simple theme for the version of EmulationStation used in ES-DE v2.x.  
+*(If you are using ES-DE v1.x or earlier please download [this version](https://github.com/anthonycaccese/art-book-next-retropie) instead)*
 
 ## **Preview**
 
@@ -11,11 +10,11 @@ A simple theme for the version of EmulationStation used in [ES-DE v2.x](https://
 
 ## **Configuration Options**
 
-- The theme has a simple set of options that can be changed directly in the root theme.xml 
+- The theme has a simple set of options that can be changed directly from the UI Settings menu of ES-DE 
    - Options:
-   - `<aspectRatio></aspectRatio>`- sets the aspect ratio the theme will render at. If needed, this should be changed to match the aspect ratio of your screen.
-   - `<gameListStyle></gameListStyle>`- sets the layout used for the gamelist view when media & metadata are scraped for your games
-   - `<colorScheme></colorScheme>`- sets the color scheme that is used for the overall theme on all views
+   - `Theme Aspect Ratio`- sets the aspect ratio the theme will render at. If needed, this should be changed to match the aspect ratio of your screen.
+   - `Theme Variant`- sets the layout used for the gamelist view when media & metadata are scraped for your games
+   - `Color`- sets the color scheme that is used for the overall theme on all views
 - 16:9, 16:10 and 4:3 aspect ratios are currently supported
 - there are 2 gamelist layouts to choose from (metadata-on & metadata-off)
 - and 4 pre-built color schemes are currently available with the option of creating your own customized color scheme through a simple XML file (details below)
@@ -38,73 +37,36 @@ A simple theme for the version of EmulationStation used in [ES-DE v2.x](https://
 | SNES (simply made for fun as the SNES was my first console) | ![Screen Shot 2022-07-21 at 12 12 26](https://user-images.githubusercontent.com/1454947/180265452-4a687612-d138-4e15-89bf-dc082f45f155.png) |
 
 ## User Customizations
-When using the theme on RetroPie you can make the following changes in the root theme.xml to tailor the look to your setup
+The following can be changed directly from the ES-DE menu interface under `UI Settings`
 
-### Aspect Ratio... 
-Change the value in `<aspectRatio>` to match your screen aspect ratio (default is 16-9)
+### Theme Aspect Ratio... 
+Change the value in `UI Settings > Theme Aspect Ratio` to match your screen aspect ratio (default is 16-9)
 ```
-<!-- 
 Apsect Ratio Options:
-16:10 = 16-10
-16:9 = 16-9
- 4:3 = 4-3
--->
-<aspectRatio>16-9</aspectRatio>
+16:10
+16:9
+4:3
 ```
 
-### Gamelist Style... 
-Change the value in `< gameListStyle >` to match your preferred gamelist layout (default is metadata-on)
+### Theme Variant... 
+Change the value in `UI Settings > Theme Variant` to match your preferred gamelist layout (default is metadata-on)
 ```
-<!-- 
-Gamelist Style Options:
+Theme Variant Options:
 metadata-off
 metadata-on
--->
-<gameListStyle>metadata-on</gameListStyle>
 ```
 
-### Color Scheme...
-Change the value in `< colorScheme >` to match your preferred color scheme (default is art-book-next)
+### Color...
+Change the value in `UI Settings > Color` to match your preferred color scheme (default is art-book-next)
 ```
-<!-- 
-Color Scheme Options:
+Color Options:
 art-book-next
 art-book
 snes
 steam-deck
 custom
--->
-<colorScheme>art-book-next</colorScheme>
 ```
 If you change the color scheme option to `custom` then you can change values in the `color-scheme-custom.xml` file to match the colors you prefer.  I am happy to add additional colors to the pre-built list too; so if you create one that you are comfortable with sharing please post it here: https://retropie.org.uk/forum/topic/33010/theme-art-book-next
-
-### Example:
-As a quick example if you have a screen with a 16:10 aspect ratio, do not want to see metadata and like the snes colors then this is what you would change in the theme.xml
-
-```
-<!-- 
-Apsect Ratio Options:
-16:10 = 16-10
-16:9 = 16-9
-4:3 = 4-3
--->
-<aspectRatio>4-3</aspectRatio>
-<!-- 
-Gamelist Style Options:
-metadata-off
-metadata-on
--->
-<gameListStyle>metadata-off</gameListStyle>
-<!-- 
-Color Scheme Options:
-art-book-next
-art-book
-snes
-steam-deck
-custom
--->
-<colorScheme>snes</colorScheme>
-```
 
 ## **To-Do**
 (a quick list of items I am looking to add)
